@@ -6,6 +6,7 @@
     --Light-gray: hsl(212, 45%, 89%);
     --Grayish-blue: hsl(220, 15%, 55%);
     --Dark-blue: hsl(218, 44%, 22%);
+    
     --new-box-shadow: 0 25px 15px 0 rgba(0, 0, 0, 0.01), 0 10px 25px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -59,6 +60,7 @@ body {
     margin-bottom: 0.4em;
      font-weight: 700;
     font-size: 1.2em;
+    color: var(--Dark-blue);
 }
 .card_text span{
     
