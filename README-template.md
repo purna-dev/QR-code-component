@@ -11,93 +11,116 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+Qr code component  based ui design
 
 ### Screenshot
 
 ![](./screenshot.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/purna-dev/QR-code-component)
+- Live Site URL: [Add live site URL here](https://purna-dev.github.io/QR-code-component/)
 
 ## My process
+First Code the skeleton of the page and css to style the page after that i properly align the items
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+How to use flexbox to develop this UI 
+My code snippets :
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div class="container">
+    <div class="card">
+      <div class="img_c">
+        <img src="images/image-qr-code.png" alt="">
+      </div>
+
+      <div class="card_text">
+        <p>
+          Improve your front-end skills by building projects
+        </p>
+        <span>
+
+          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        </span>
+      </div>
+
+    </div>
+  </div>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+.card {
+    width: 290px;
+    height: 450px;
+    background-color: var(--White);
+    box-shadow: var(--new-box-shadow);
+    border-radius: 0.9em;
+}
+
+.img_c {
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    margin: 1em;
+    width: 260px;
+    border-radius: 0.5em;
+
+}
+.card_text{
+
+    text-align: center;
+    padding: 0 1.1em;
+    
+}
+.card_text p{
+    padding: 0.3em;
+    margin-bottom: 0.4em;
+     font-weight: 700;
+    font-size: 1.2em;
+}
+.card_text span{
+    
+    font-size: 0.9em;
+    color: var(--Grayish-blue);
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+flexbox
+grid layout
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Purna Chandra Saren](https://purnachandra.me/)
+- Frontend Mentor - [@purna-dev](https://www.frontendmentor.io/profile/purna-dev)
+- Twitter - [@yourusername](https://www.linkedin.com/in/impurna/)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
