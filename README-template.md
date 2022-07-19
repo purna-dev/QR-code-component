@@ -120,7 +120,7 @@ grid layout
 
 - Website - [Purna Chandra Saren](https://purnachandra.me/)
 - Frontend Mentor - [@purna-dev](https://www.frontendmentor.io/profile/purna-dev)
-- Twitter - [@yourusername](https://www.linkedin.com/in/impurna/)
+- Linkedin - [@yourusername](https://www.linkedin.com/in/impurna/)
 
 
 
