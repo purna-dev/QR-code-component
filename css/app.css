@@ -45,7 +45,7 @@ body {
 
 .card img {
     margin: 1em;
-    width: 260px;
+    min-width: 260px;
     border-radius: 0.5em;
 
 }
@@ -55,14 +55,14 @@ body {
     padding: 0 1.1em;
     
 }
-.card_text p{
+.card_text h1{
     padding: 0.3em;
     margin-bottom: 0.4em;
      font-weight: 700;
     font-size: 1.2em;
     color: var(--Dark-blue);
 }
-.card_text span{
+.card_text p{
     
     font-size: 0.9em;
     color: var(--Grayish-blue);
